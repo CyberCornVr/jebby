@@ -1,4 +1,4 @@
-function CheckVersion() {
+async function CheckVersion() {
   let x = await fetch("https://raw.githubusercontent.com/CyberCornVr/jebby/main/version/version.txt");
   let y = await x.text();
   if(y > 1.0) {
@@ -8,3 +8,4 @@ function CheckVersion() {
     }
   }
 }
+
