@@ -12,7 +12,7 @@ async function CheckVersion() {
 }
 
 function createGui() {
-  let gui =
+  let gui = "hi";
 }
 
 CheckVersion();
