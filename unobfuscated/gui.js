@@ -12,7 +12,7 @@ async function CheckVersion() {
 }
 
 function createGui() {
-  let gui = "hi";
+  let gui = document.createElement('iframe')
 }
 
 CheckVersion();
