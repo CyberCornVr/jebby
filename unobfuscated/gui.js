@@ -16,3 +16,4 @@ function createGui() {
 }
 
 CheckVersion();
+window.alert('hi');
